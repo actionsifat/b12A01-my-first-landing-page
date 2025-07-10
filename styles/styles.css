@@ -33,6 +33,18 @@ padding: 12px 36px;
 border-radius: 10px;
 }
 
+.section-title{
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.section-description{
+    color: #25243244;
+    font-size: 24px;
+    font-weight: normal;
+}
+
 /* header styles */
 .header{
     background-image: url(/Assets/Hero-bg.png);
@@ -65,4 +77,59 @@ nav .nav-title{
     font-size: 65px;
     font-weight: bold;
     color: #252432;
+}
+
+/* main styles */
+/* first section styles */
+
+.live-preview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.actions-info{
+    text-align: left;
+    margin: 63px 141px;
+}
+
+.margin-top-c{
+    margin-top:23px;
+}
+
+.wc-mini{
+    background-repeat: no-repeat;
+    max-width: 403px;
+    height: 328px;
+    border-radius: 48px;
+    margin-right: 100px;
+}
+
+/* second section styles user count */
+.p-u-s{
+    background-color: rgba(77, 71, 255, 0.164);
+    max-width: 1140px;
+    height: 306px;
+    border-radius: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 90px auto;
+}
+
+.p-u-s-title{
+    margin-bottom: 40px;
+}
+.users-counts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:158px;
+}
+
+.count{
+    font-size: 80px;
+    font-weight: bold;
 }
