@@ -37,6 +37,13 @@ padding: 12px 36px;
 border-radius: 10px;
 }
 
+.primary-btn:hover{
+    background-color: rgb(89, 0, 255);
+    transition: 0.5s ease-in;
+    box-shadow: -12px 12px 20px 0 rgba(93, 6, 255, 0.308);
+    cursor: pointer;
+}
+
 .section-title{
     color: #252432;
     font-size: 42px;
@@ -47,6 +54,11 @@ border-radius: 10px;
     color: #25243244;
     font-size: 24px;
     font-weight: normal;
+}
+
+.small-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 13px;
 }
 
 /* header styles */
@@ -152,6 +164,7 @@ margin: 137px auto;
     padding:10px;
     border-radius: 10px;
     background-color: white;
+    box-shadow: -12px 12px 20px rgba(0, 0, 0, 0.030);
 }
 
 .reviews{
@@ -200,4 +213,24 @@ text-align: center;
 .review-date{
     font-weight: 300;
     color: rgba(117, 117, 117, 1);
+}
+
+/* promotion styles */
+.promotion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto 92px auto;
+}
+
+.promotion .promotion-title, .promotion-description, .promotion-btn, .wc-big{
+    margin-top: 20px;
+}
+
+.wc-big{
+    border-radius: 48px;
+    max-width: 840px;
+    height: 365px;
+    background-repeat: no-repeat;
 }
