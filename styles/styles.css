@@ -279,4 +279,28 @@ margin-top: 19px;
 /* footer section styles */
 .footer{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-big-logo{
+    font-size:100px;
+    font-weight: 900;
+}
+
+.footer .footer-description{
+    margin-top: 8px;
+}
+
+.footer ul{
+display: flex;
+}
+.footer ul li a{
+    text-decoration: none;
+}
+.footer ul li{
+    list-style: none;
+    margin: 20px 40px;
 }
