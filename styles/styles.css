@@ -64,7 +64,7 @@ border-radius: 10px;
 
 /* header styles */
 .header{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     height: 698px;
