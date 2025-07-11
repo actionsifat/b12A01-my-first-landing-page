@@ -234,3 +234,49 @@ text-align: center;
     height: 365px;
     background-repeat: no-repeat;
 }
+
+/* get in touch styles */
+.lgit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 92px;
+}
+.section-big-title{
+    font-size: 97px;
+    color: black;
+}
+.right-side form{
+    display: flex;
+    flex-direction: column;
+    max-width: 497px;
+}
+
+.right-side form label{
+font-size: 18px;
+font-weight: 500;
+color: black;
+margin-bottom: 10px;
+margin-top: 19px;
+}
+
+.right-side form input, textarea{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    width: 400px;
+}
+
+.right-side form .input-text{
+    font-size: 20px;
+    color: rgba(80, 80, 80, 0.322);
+}
+
+.right-side form button{
+    margin-top: 15px;
+}
+
+/* footer section styles */
+.footer{
+    background-color: white;
+}
